@@ -1,5 +1,4 @@
 import openai
-pip install dotenv
 from dotenv import load_dotenv
 load_dotenv('/my_openai_apikey.env')
 
