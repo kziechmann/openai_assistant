@@ -27,11 +27,15 @@ reply with #twilio: prefixed to a message to schedule sending a message to the u
 repeat steps 2-8 as needed to help user achieve goals and improve productivity.
  """
 
-conversation = [{
-    "role": "system",
-     "content": "DIRECTIVE_FOR_gpt-3.5-turbo"
-},
-{"role": "system", "content": prompt}
+conversation = [
+    {
+        "role": "system",
+        "content": "DIRECTIVE_FOR_gpt-3.5-turbo"
+    },
+    {   
+        "role": "system",
+        "content": prompt
+    }
 ]
 
 
