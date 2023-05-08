@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv('/my_openai_apikey.env')
 my_api_key = os.getenv('my_api_key')
 
-openai.api_key = my_api_key # supply your API key however you choose
+openai.api_key = my_api_key
 
 message = {
     "role":"user",
